@@ -20,7 +20,6 @@ const count = ref(0);
 const cesiumMap = ref(null);
 
 
-//框架
 //gis  leafet, cesium, openlayers, mapbox 
 //leafet  二维平面，简单易上手
 //cesium  三维地球，复杂，学习曲线陡峭 
@@ -29,6 +28,7 @@ const cesiumMap = ref(null);
 
 //学习地址 ： leaflet： https://leafletjs.cn/examples/quick-start/   openlayers: https://blog.csdn.net/weixin_43390116/article/details/122326847l 
 //底图放大
+
 const zoomin = () => {
   cesiumMap.value.zoomIn();
 };
